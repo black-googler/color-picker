@@ -1,0 +1,84 @@
+.picker{
+  z-index: 50;
+  border: 10px solid rgb(0,0,0);
+}
+
+.options{
+  position: absolute;
+  top: -10px;
+  left: 290px
+}
+
+.swatch{
+  height: 30px;
+  width: 30px;
+  margin: 10px 0 0 0;
+}
+
+h3{
+  font-family: arial;
+  color: #FFF;
+}
+
+
+.radio input[type=radio]{
+  opacity: 0;
+}
+
+.radio input[type=radio] + span{
+  position: relative;
+  color: #8C8C8C;
+  padding: 3px;
+  left: -1.5em;
+  top: -1em;
+}
+
+.radio input[type=radio]:checked + span {
+  background: #ECECEC;
+  color: #1C1C1C;
+  font-weight; bold;
+  padding: 3px;
+}
+
+.options > span{
+  position: relative;
+  top: 4px;
+}
+
+
+span, p{
+  display: inline;
+  font-family: arial;
+  color: #FFF;
+}
+
+.active{
+  box-shadow: 0 0 3px 3px #FFF;
+}
+
+.swatch1{
+  background: rgb(82,199,0);
+}
+
+.swatch2{
+  background: rgb(255,255,255);
+}
+
+.swatch3{
+  background: rgb(82,199,0);
+}
+
+body{
+  background: #3C3C3C;
+  background-image: url(http://edithbuisson.fr/images/texture.png)
+}
+
+.example{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  background: -webkit-linear-gradient(rgb(10,119,0) 0%, rgb(255,255,255) 50%, rgb(10,119,1) 100%);
+  background: -moz-linear-gradient(rgb(10,119,0) 0%, rgb(255,255,255) 50%, rgb(10,119,1) 100%);
+}

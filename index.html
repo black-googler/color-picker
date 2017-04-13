@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas Colour Picker</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <canvas class="picker" id="picker" width="256px" height="256px">
+  Please use a canvas compatible browser
+</canvas>
+<div class="options">
+  <h3>Engine:</h3>
+  <label for="moz" class="radio">
+    <input type="radio" id="moz" name="browser" value="moz">
+    <span>Gecko</span>
+    <br>
+  </label>
+  
+  <label for="webkit" class="radio">
+    <input type="radio" id="webkit" name="browser" value="webkit" checked>
+    <span>Webkit</span>
+    <br>
+  </label>
+  <div class="swatch swatch1 active" id="swatch1"></div>
+  <span>Top</span>
+  <div class="swatch swatch2" id="swatch2"></div>
+  <span>Middle</span>
+  <div class="swatch swatch3" id="swatch3"></div>
+  <span>Bottom</span>
+</div>
+<p id="output"></p>
+<div class="example" id="example"></div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
